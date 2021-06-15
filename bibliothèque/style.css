@@ -1,0 +1,74 @@
+body{
+    font-family: Pattaya;
+    background: linear-gradient(#333,#fff);
+}
+header{
+    display : grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 200px;
+    background-color: #FFF;
+    border-radius: 5px 3px;
+    box-shadow: #333 5px 3px;
+    opacity: 0.35;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+}
+
+img{
+    border-radius: 5px 3px;
+    box-shadow: #333 5px 3px 5px 3px;
+	
+}
+.menu{
+    color: #333;
+    text-decoration: none;
+    text-align:center;
+    margin-left: 200px;
+    font-size: 20px;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-family: Pattaya;
+    gap: 20px;
+    justify-content: center;
+}
+hr{
+    width: 200px;
+}
+td{
+    border: solid 1px #333;
+    box-shadow: #333 2px 4px;
+    border-radius: 2px 2px;
+}
+.card{
+    border: solid 1px #333;
+    box-shadow: #333 2px 4px;
+    border-radius: 150px;
+    height: 300px;
+    width:300px ;
+    line-height: 40px;
+    text-align: center;
+}
+input{
+    box-shadow: #333 2px 4px;
+    border-radius: 2px 2px;
+}
+footer{
+    display : grid;
+    height: 200px;
+    background-color: #FFF;
+    border-radius: 5px 3px;
+    box-shadow: #333 5px 3px 5px 3px;
+    text-align: center;
+    text-transform: capitalize;
+    opacity: 0.35;
+}
